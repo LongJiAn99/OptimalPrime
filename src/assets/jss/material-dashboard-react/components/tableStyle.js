@@ -53,6 +53,11 @@ const tableStyle = (theme) => ({
     verticalAlign: "middle",
     fontSize: "0.8125rem",
   },
+  tableData: {
+    ...defaultFont,
+    verticalAlign: "middle",
+    alignItems:"middle"
+  },
   tableResponsive: {
     width: "100%",
     marginTop: theme.spacing(3),
@@ -71,6 +76,7 @@ const tableStyle = (theme) => ({
     display: "table-row",
     outline: "none",
     verticalAlign: "middle",
+    textAlign: "center"
   },
 });
 
