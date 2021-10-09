@@ -10,7 +10,7 @@
     "phone": 97945324,
     "address": "738 Veterans Avenue, Verdi, North Dakota, 6673",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c6202bf77822b4905a7",
@@ -23,7 +23,7 @@
     "phone": 96768173,
     "address": "126 Seacoast Terrace, Walland, Federated States Of Micronesia, 1633",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6200c9df8ff3639044",
@@ -36,7 +36,7 @@
     "phone": 9165484,
     "address": "464 Strauss Street, Belleview, Alabama, 1274",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c626b11de3eb7410083",
@@ -49,7 +49,7 @@
     "phone": 98352951,
     "address": "648 Whitwell Place, Alleghenyville, Delaware, 8355",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62a72871f4c7af3a54",
@@ -62,7 +62,7 @@
     "phone": 97636470,
     "address": "826 Kent Street, Brookfield, Florida, 6744",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c6290ff8b9a17d35b9b",
@@ -75,7 +75,7 @@
     "phone": 98272021,
     "address": "656 Maple Avenue, Cobbtown, American Samoa, 7780",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62ae5af1266c7cb148",
@@ -88,7 +88,7 @@
     "phone": 9263135,
     "address": "342 Barlow Drive, Tedrow, Arizona, 4482",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c624d8678a2b62f6e80",
@@ -101,7 +101,7 @@
     "phone": 91851034,
     "address": "397 Lawrence Avenue, Enlow, Colorado, 8976",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62601f6802cfc0b5f1",
@@ -114,7 +114,7 @@
     "phone": 95192111,
     "address": "569 Johnson Street, Masthope, Pennsylvania, 1607",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62141345874fc8b80c",
@@ -127,7 +127,7 @@
     "phone": 92159480,
     "address": "357 Haring Street, Starks, Utah, 7119",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62691261c18e754c76",
@@ -140,7 +140,7 @@
     "phone": 97890525,
     "address": "614 Billings Place, Groveville, Marshall Islands, 7005",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c6224eebc5e6e9749c9",
@@ -153,7 +153,7 @@
     "phone": 91502814,
     "address": "167 Williams Place, Outlook, Louisiana, 3912",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62a7edb122db693dbf",
@@ -166,7 +166,7 @@
     "phone": 99858210,
     "address": "658 Emerson Place, Nogal, Oregon, 3324",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62d46b42934b9dc410",
@@ -179,7 +179,7 @@
     "phone": 99886556,
     "address": "796 Howard Place, Thatcher, Michigan, 4455",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62e8062279fd1c8647",
@@ -192,7 +192,7 @@
     "phone": 9335396,
     "address": "652 Cambridge Place, Bendon, New York, 3521",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6277c210aa28e180c0",
@@ -205,7 +205,7 @@
     "phone": 91965856,
     "address": "639 Martense Street, Floriston, North Carolina, 3674",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62f8bfb4d92b873881",
@@ -218,7 +218,7 @@
     "phone": 95618282,
     "address": "723 Oriental Court, Nutrioso, District Of Columbia, 4812",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62c2b1393d905fa534",
@@ -231,7 +231,7 @@
     "phone": 93972190,
     "address": "653 Adler Place, Columbus, Northern Mariana Islands, 6256",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62ec11efb7d8de5d75",
@@ -244,7 +244,7 @@
     "phone": 99107848,
     "address": "371 Covert Street, Wright, Wisconsin, 6434",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c621e9adf2ce0c7ad2b",
@@ -257,7 +257,7 @@
     "phone": 97104355,
     "address": "402 Fiske Place, Kanauga, New Mexico, 5593",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62dd24cb9620ab0510",
@@ -270,7 +270,7 @@
     "phone": 99079267,
     "address": "774 Croton Loop, Steinhatchee, Illinois, 9901",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62802baca92716860f",
@@ -283,7 +283,7 @@
     "phone": 93390387,
     "address": "605 Rockaway Avenue, Bonanza, Idaho, 3958",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62c5016999048d4670",
@@ -296,7 +296,7 @@
     "phone": 95565181,
     "address": "178 Veronica Place, Stewart, Oklahoma, 4834",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62422e4fcfedde589d",
@@ -309,7 +309,7 @@
     "phone": 99822015,
     "address": "918 Bushwick Court, Linwood, Connecticut, 6971",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62b5ac3d48224ab8df",
@@ -322,7 +322,7 @@
     "phone": 91309414,
     "address": "888 Monitor Street, National, Nebraska, 5582",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62f32a0673442607de",
@@ -335,7 +335,7 @@
     "phone": 92349876,
     "address": "679 Shale Street, Forbestown, California, 5938",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c622f6819ff97559d71",
@@ -348,7 +348,7 @@
     "phone": 98375828,
     "address": "180 Jardine Place, Herbster, Mississippi, 3120",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6215e8ebe9d16e22e4",
@@ -361,7 +361,7 @@
     "phone": 95488060,
     "address": "648 Garden Street, Lowell, Virginia, 7216",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6273a307d0971f55f4",
@@ -374,7 +374,7 @@
     "phone": 95700873,
     "address": "814 Belvidere Street, Richford, Palau, 7428",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c624c186f6394c0e78a",
@@ -387,7 +387,7 @@
     "phone": 995339,
     "address": "860 Tehama Street, Chelsea, New Jersey, 1241",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62f9ead3e2c0b88b6b",
@@ -400,7 +400,7 @@
     "phone": 96246080,
     "address": "939 Whitney Avenue, Vale, South Carolina, 4521",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c6213364500b6a217f4",
@@ -413,7 +413,7 @@
     "phone": 99481963,
     "address": "459 Front Street, Cazadero, Hawaii, 8738",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c628cc39c496b082d4a",
@@ -426,7 +426,7 @@
     "phone": 99343204,
     "address": "743 Campus Road, Fredericktown, Indiana, 6506",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c624fe90adb9bc35fe3",
@@ -439,7 +439,7 @@
     "phone": 9504857,
     "address": "565 Cooke Court, Wiscon, Virgin Islands, 516",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62bf44fff91f1b686d",
@@ -452,7 +452,7 @@
     "phone": 97387395,
     "address": "245 Gallatin Place, Berwind, Washington, 125",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c622a16c48002b0ee94",
@@ -465,7 +465,7 @@
     "phone": 91481191,
     "address": "898 Story Court, Fairfield, Minnesota, 4223",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62cd022ebe3b67aeaa",
@@ -478,7 +478,7 @@
     "phone": 91195231,
     "address": "649 Dictum Court, Succasunna, New Hampshire, 6527",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c628dd095aaae6e1a90",
@@ -491,7 +491,7 @@
     "phone": 99744330,
     "address": "686 Midwood Street, Morriston, Missouri, 2449",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62a04342cf82cdbd42",
@@ -504,7 +504,7 @@
     "phone": 95528677,
     "address": "293 Loring Avenue, Emison, Rhode Island, 3603",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6248c2f85b282a5dfe",
@@ -517,7 +517,7 @@
     "phone": 99869307,
     "address": "326 Willmohr Street, Matthews, Arkansas, 1829",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c621a8d2617c3333646",
@@ -530,7 +530,7 @@
     "phone": 91049868,
     "address": "614 Amersfort Place, Mooresburg, Massachusetts, 4017",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62ca1cd9298404bbec",
@@ -543,7 +543,7 @@
     "phone": 93569162,
     "address": "803 Florence Avenue, Enoree, Puerto Rico, 3144",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c6263d8be24d4770fb7",
@@ -556,7 +556,7 @@
     "phone": 93949483,
     "address": "366 Furman Street, Downsville, Texas, 4975",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c624f6b86edb6279439",
@@ -569,7 +569,7 @@
     "phone": 96266829,
     "address": "569 Reed Street, Balm, Iowa, 7132",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62d8e9a5d955d7cf86",
@@ -582,7 +582,7 @@
     "phone": 91979549,
     "address": "504 Schenck Court, Caberfae, Kansas, 8956",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62d401616e05c6efa8",
@@ -595,7 +595,7 @@
     "phone": 97427352,
     "address": "432 Coleman Street, Caln, South Dakota, 5673",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c626a2b6f299781cee3",
@@ -608,7 +608,7 @@
     "phone": 98991168,
     "address": "117 Herkimer Street, Mulino, Vermont, 5025",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c629e3be9de703d98b8",
@@ -621,7 +621,7 @@
     "phone": 99839140,
     "address": "936 Lois Avenue, Goodville, Wyoming, 9480",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62b3e40dc6b374edd0",
@@ -634,7 +634,7 @@
     "phone": 95645078,
     "address": "949 Aitken Place, Rockbridge, Montana, 1382",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c620bd5ec2f187670c1",
@@ -647,7 +647,7 @@
     "phone": 99718988,
     "address": "860 Ferry Place, Mappsville, Alaska, 5681",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c625a78b657645dcf48",
@@ -660,7 +660,7 @@
     "phone": 94772425,
     "address": "385 Amber Street, Grahamtown, Georgia, 3379",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c620ee7202f32334025",
@@ -673,7 +673,7 @@
     "phone": 98488126,
     "address": "715 Lafayette Walk, Venice, Ohio, 7234",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c627f0cd34f7c0316f0",
@@ -686,7 +686,7 @@
     "phone": 95726441,
     "address": "982 Oliver Street, Onton, Kentucky, 2408",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c623b4819d37f4a1ec9",
@@ -699,7 +699,7 @@
     "phone": 96613958,
     "address": "137 Gaylord Drive, Vivian, Tennessee, 4675",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62779d4912ba8e70f4",
@@ -712,7 +712,7 @@
     "phone": 97989215,
     "address": "970 Bedford Place, Maxville, Maryland, 7465",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c6207b77fe6480f87a4",
@@ -725,7 +725,7 @@
     "phone": 98891013,
     "address": "114 Lott Avenue, Imperial, West Virginia, 8887",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62778327a7c3c052a6",
@@ -738,7 +738,7 @@
     "phone": 96068936,
     "address": "823 Townsend Street, Rew, Maine, 9963",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62ae6577d339c51061",
@@ -751,7 +751,7 @@
     "phone": 94277057,
     "address": "252 Banker Street, Klagetoh, Nevada, 7806",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62431a7d8699d404b8",
@@ -764,7 +764,7 @@
     "phone": 92664338,
     "address": "625 Classon Avenue, Ticonderoga, North Dakota, 9193",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62bf6dfa72ba856331",
@@ -777,7 +777,7 @@
     "phone": 97816647,
     "address": "223 Cypress Court, Norvelt, Federated States Of Micronesia, 4908",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c6235090906943152a7",
@@ -790,7 +790,7 @@
     "phone": 99929494,
     "address": "801 Clifford Place, Faxon, Alabama, 1516",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62f60d4ee31664a549",
@@ -803,7 +803,7 @@
     "phone": 91953025,
     "address": "569 Rutledge Street, Brandermill, Delaware, 8065",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c628af571e688a26740",
@@ -816,7 +816,7 @@
     "phone": 99086347,
     "address": "674 Highland Avenue, Newkirk, Florida, 4042",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c623cafc0239e5f279e",
@@ -829,7 +829,7 @@
     "phone": 98392386,
     "address": "744 Dorchester Road, Leming, American Samoa, 9933",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62eba938555c706c96",
@@ -842,7 +842,7 @@
     "phone": 96663147,
     "address": "102 Neptune Avenue, Cowiche, Arizona, 6900",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c624d75c4d1c6f85b20",
@@ -855,7 +855,7 @@
     "phone": 92477636,
     "address": "434 Grant Avenue, Baden, Colorado, 909",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6282c0f2266d117145",
@@ -868,7 +868,7 @@
     "phone": 94766941,
     "address": "856 Just Court, Waterloo, Pennsylvania, 126",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6287b2d57d37bb7fef",
@@ -881,7 +881,7 @@
     "phone": 91973252,
     "address": "733 Losee Terrace, Saddlebrooke, Utah, 1123",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62ee3fcbe716ef84a8",
@@ -894,7 +894,7 @@
     "phone": 96488127,
     "address": "798 Hoyt Street, Bison, Marshall Islands, 8973",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c621331ee751699506c",
@@ -907,7 +907,7 @@
     "phone": 96344849,
     "address": "206 Hubbard Place, Frierson, Louisiana, 1940",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62c8e80344f8ac3f21",
@@ -920,7 +920,7 @@
     "phone": 97000343,
     "address": "340 Conselyea Street, Lindisfarne, Oregon, 5394",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62a078aed2a32d2141",
@@ -933,7 +933,7 @@
     "phone": 93510430,
     "address": "142 Grand Street, Cochranville, Michigan, 9111",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62182eb5550978052e",
@@ -946,7 +946,7 @@
     "phone": 96765063,
     "address": "656 Randolph Street, Graniteville, New York, 3478",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62a323846bfe863efd",
@@ -959,7 +959,7 @@
     "phone": 93741344,
     "address": "185 Waldorf Court, Canoochee, North Carolina, 5349",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62cc2fa37aa879ddb9",
@@ -972,7 +972,7 @@
     "phone": 94785263,
     "address": "371 Hoyts Lane, Welch, District Of Columbia, 4392",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c620e46f9afc6323311",
@@ -985,7 +985,7 @@
     "phone": 96489767,
     "address": "268 Division Avenue, Orovada, Northern Mariana Islands, 7453",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c628de61cc62b0870f1",
@@ -998,7 +998,7 @@
     "phone": 93430021,
     "address": "897 Hope Street, Tuttle, Wisconsin, 5461",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62bb45f3f8205c5352",
@@ -1011,7 +1011,7 @@
     "phone": 9184211,
     "address": "184 Fanchon Place, Mansfield, New Mexico, 3617",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c628780556e557b7206",
@@ -1024,7 +1024,7 @@
     "phone": 95020475,
     "address": "228 Porter Avenue, Fresno, Illinois, 6862",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c625e7d9ce09ae8c325",
@@ -1037,7 +1037,7 @@
     "phone": 92287008,
     "address": "704 Otsego Street, Westboro, Idaho, 9563",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62638bfede3740b6ac",
@@ -1050,7 +1050,7 @@
     "phone": 93451780,
     "address": "490 Church Lane, Ypsilanti, Oklahoma, 9251",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62c6030a9b72374199",
@@ -1063,7 +1063,7 @@
     "phone": 96271991,
     "address": "951 Sutter Avenue, Hardyville, Connecticut, 6352",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c623bc8cae86c3db9ba",
@@ -1076,7 +1076,7 @@
     "phone": 96060208,
     "address": "985 Sackman Street, Lodoga, Nebraska, 4062",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c6275090c5d2f38471f",
@@ -1089,7 +1089,7 @@
     "phone": 91451897,
     "address": "731 Dewey Place, Greenock, California, 3898",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62f7a5d802ac61afe1",
@@ -1102,7 +1102,7 @@
     "phone": 92968568,
     "address": "229 Plymouth Street, Munjor, Mississippi, 3934",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62479e18d93acb325b",
@@ -1115,7 +1115,7 @@
     "phone": 9542097,
     "address": "443 Bridge Street, Jardine, Virginia, 6586",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62f9eecc01e229b1ee",
@@ -1128,7 +1128,7 @@
     "phone": 96371548,
     "address": "510 Orient Avenue, Urie, Palau, 6227",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62836cc30bb074c9fa",
@@ -1141,7 +1141,7 @@
     "phone": 97740521,
     "address": "799 Montauk Avenue, Reinerton, New Jersey, 946",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c624ac90ceb3f9d3b01",
@@ -1154,7 +1154,7 @@
     "phone": 989601,
     "address": "325 Hemlock Street, Hiseville, South Carolina, 6097",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c623355a32c6c42ee50",
@@ -1167,7 +1167,7 @@
     "phone": 96527906,
     "address": "498 Dahill Road, Lemoyne, Hawaii, 6359",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62e8c5f7a87e3d1556",
@@ -1180,7 +1180,7 @@
     "phone": 97790353,
     "address": "992 Franklin Avenue, Richmond, Indiana, 5452",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62733f0ead90dd865c",
@@ -1193,7 +1193,7 @@
     "phone": 99008070,
     "address": "175 Doone Court, Barrelville, Virgin Islands, 1020",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6246b94597df3f1eb6",
@@ -1206,7 +1206,7 @@
     "phone": 91018923,
     "address": "790 Bartlett Place, Buxton, Washington, 9016",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6201b0fe088c8663dd",
@@ -1219,7 +1219,7 @@
     "phone": 9549829,
     "address": "167 Mersereau Court, Norfolk, Minnesota, 1183",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62a99900e7995631f9",
@@ -1232,7 +1232,7 @@
     "phone": 97230565,
     "address": "930 Grace Court, Tilden, New Hampshire, 5096",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62f87f718a55864fd9",
@@ -1245,7 +1245,7 @@
     "phone": 96101449,
     "address": "711 Broome Street, Loveland, Missouri, 8646",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c624ef176dc02f6105a",
@@ -1258,7 +1258,7 @@
     "phone": 95785913,
     "address": "408 Ridgecrest Terrace, Clara, Rhode Island, 1019",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62cf4b7bc4d0f7677c",
@@ -1271,7 +1271,7 @@
     "phone": 91937965,
     "address": "622 Heyward Street, Fairview, Arkansas, 5938",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6227d0f69b50d3a31f",
@@ -1284,7 +1284,7 @@
     "phone": 91768503,
     "address": "661 Anchorage Place, Sutton, Massachusetts, 6978",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c6236d11303f16ab852",
@@ -1297,7 +1297,7 @@
     "phone": 92795559,
     "address": "617 Bergen Court, Waterview, Puerto Rico, 4500",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62f41d51b4ce4a4e9e",
@@ -1310,7 +1310,7 @@
     "phone": 99171108,
     "address": "610 Graham Avenue, Talpa, Texas, 6844",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c6219baed81f4bc196e",
@@ -1323,7 +1323,7 @@
     "phone": 98625625,
     "address": "578 Willoughby Street, Riner, Iowa, 9388",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c625074926706ccec06",
@@ -1336,7 +1336,7 @@
     "phone": 94759967,
     "address": "129 Stoddard Place, Coyote, Kansas, 8485",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c626273f7f00f3571ff",
@@ -1349,7 +1349,7 @@
     "phone": 98748638,
     "address": "873 Havemeyer Street, Rosburg, South Dakota, 6997",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62715484aa9cf2a5d2",
@@ -1362,7 +1362,7 @@
     "phone": 93201565,
     "address": "931 Cranberry Street, Tilleda, Vermont, 5152",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c6298785cc54443caed",
@@ -1375,7 +1375,7 @@
     "phone": 95838540,
     "address": "713 Atlantic Avenue, Hobucken, Wyoming, 7301",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62da7b0a3753997387",
@@ -1388,7 +1388,7 @@
     "phone": 93992390,
     "address": "265 Lombardy Street, Martinez, Montana, 8663",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c621bf6f0dd8ac9539e",
@@ -1401,7 +1401,7 @@
     "phone": 91765681,
     "address": "658 Garfield Place, Olney, Alaska, 4430",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62e50273b9f7ac9dd6",
@@ -1414,7 +1414,7 @@
     "phone": 96830303,
     "address": "321 Erasmus Street, Rote, Georgia, 9764",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c620fa5e92d3d98170a",
@@ -1427,7 +1427,7 @@
     "phone": 98743686,
     "address": "828 Ainslie Street, Marbury, Ohio, 8769",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c628f8e1571325cabe3",
@@ -1440,7 +1440,7 @@
     "phone": 99930602,
     "address": "529 Stryker Court, Volta, Kentucky, 2204",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62b1a97ecae4409187",
@@ -1453,7 +1453,7 @@
     "phone": 94607518,
     "address": "815 Hooper Street, Kilbourne, Tennessee, 3409",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6233194b0df113dcad",
@@ -1466,7 +1466,7 @@
     "phone": 98936731,
     "address": "408 Kimball Street, Grantville, Maryland, 1161",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62a5032c5adf3b8345",
@@ -1479,7 +1479,7 @@
     "phone": 98756895,
     "address": "924 Knapp Street, Edgewater, West Virginia, 5842",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c624242f0f3ee43ce6d",
@@ -1492,7 +1492,7 @@
     "phone": 95869786,
     "address": "486 Grimes Road, Ellerslie, Maine, 7817",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62c1ab9bd52cdcc671",
@@ -1505,7 +1505,7 @@
     "phone": 94529203,
     "address": "196 Hastings Street, Henrietta, Nevada, 2779",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62a694fbedbcc0037d",
@@ -1518,7 +1518,7 @@
     "phone": 96401622,
     "address": "615 Brevoort Place, Iola, North Dakota, 8579",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62ff20c4163192037d",
@@ -1531,7 +1531,7 @@
     "phone": 96244934,
     "address": "669 Chester Court, Indio, Federated States Of Micronesia, 2054",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c622d6926d331e86a8d",
@@ -1544,7 +1544,7 @@
     "phone": 96310771,
     "address": "840 Beaumont Street, Marion, Alabama, 8478",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c6225ee41b66ba9cc11",
@@ -1557,7 +1557,7 @@
     "phone": 98130615,
     "address": "579 Eagle Street, Dowling, Delaware, 9146",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62ce43257e7707023a",
@@ -1570,7 +1570,7 @@
     "phone": 93845746,
     "address": "726 Hart Street, Beaulieu, Florida, 7519",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c624773e053d8b977ef",
@@ -1583,7 +1583,7 @@
     "phone": 94577050,
     "address": "665 Stuart Street, Baker, American Samoa, 2121",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c626c0b956cc6002418",
@@ -1596,7 +1596,7 @@
     "phone": 99321527,
     "address": "364 Luquer Street, Worcester, Arizona, 7555",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c627b63c2eaec73f73d",
@@ -1609,7 +1609,7 @@
     "phone": 97591903,
     "address": "281 Rock Street, Shepardsville, Colorado, 2465",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62100119f1edfdf9cf",
@@ -1622,7 +1622,7 @@
     "phone": 93023876,
     "address": "759 Homecrest Court, Caspar, Pennsylvania, 2545",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62b6077e6bf12be6ce",
@@ -1635,7 +1635,7 @@
     "phone": 94507611,
     "address": "649 Hill Street, Condon, Utah, 9427",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62a72c5e1e05db0175",
@@ -1648,7 +1648,7 @@
     "phone": 99957547,
     "address": "846 Albemarle Terrace, Haring, Marshall Islands, 9876",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62f2c5318cca8950a2",
@@ -1661,7 +1661,7 @@
     "phone": 99214468,
     "address": "332 Cyrus Avenue, Geyserville, Louisiana, 7769",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c622eed0ebe79385687",
@@ -1674,7 +1674,7 @@
     "phone": 97218480,
     "address": "224 Pulaski Street, Idamay, Oregon, 2348",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6204587dbf5589d0d2",
@@ -1687,7 +1687,7 @@
     "phone": 91459398,
     "address": "560 Himrod Street, Bellamy, Michigan, 3884",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6258f6c720069380e1",
@@ -1700,7 +1700,7 @@
     "phone": 98992889,
     "address": "814 Ryder Street, Rockingham, New York, 2742",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c622f121a1593def776",
@@ -1713,7 +1713,7 @@
     "phone": 91425103,
     "address": "536 Gunnison Court, Ripley, North Carolina, 9718",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62ff169dec9f0d64b6",
@@ -1726,7 +1726,7 @@
     "phone": 92764173,
     "address": "906 McKibbin Street, Caroleen, District Of Columbia, 9874",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62c890b65d3f2c4d13",
@@ -1739,7 +1739,7 @@
     "phone": 97347993,
     "address": "993 Williams Court, Mammoth, Northern Mariana Islands, 6070",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c627b2d83f7f879bdcd",
@@ -1752,7 +1752,7 @@
     "phone": 9637409,
     "address": "999 Chase Court, Durham, Wisconsin, 9029",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6222278e62e124b8a2",
@@ -1765,7 +1765,7 @@
     "phone": 94039735,
     "address": "645 Lenox Road, Leland, New Mexico, 6835",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c628a1a2f4805474925",
@@ -1778,7 +1778,7 @@
     "phone": 97679823,
     "address": "106 Foster Avenue, Glendale, Illinois, 1396",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62c9fe1fd37bd2731a",
@@ -1791,7 +1791,7 @@
     "phone": 92963097,
     "address": "599 Oxford Walk, Salunga, Idaho, 2093",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62a7128785c8b3a36c",
@@ -1804,7 +1804,7 @@
     "phone": 91553989,
     "address": "726 Vermont Street, Windsor, Oklahoma, 4789",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62cb9bb27fa23030c9",
@@ -1817,7 +1817,7 @@
     "phone": 97576979,
     "address": "360 George Street, Adamstown, Connecticut, 7543",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c628074c8cc9c01e0d6",
@@ -1830,7 +1830,7 @@
     "phone": 9428193,
     "address": "828 Bush Street, Wollochet, Nebraska, 4606",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c624f1720680163ab81",
@@ -1843,7 +1843,7 @@
     "phone": 92638733,
     "address": "585 Woods Place, Ironton, California, 9206",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c6277559c8e846b8942",
@@ -1856,7 +1856,7 @@
     "phone": 92251603,
     "address": "896 Campus Place, Weedville, Mississippi, 3570",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c626f970c84bafb62c1",
@@ -1869,7 +1869,7 @@
     "phone": 91774281,
     "address": "636 Prince Street, Mahtowa, Virginia, 6419",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c628c07aaff20a0001d",
@@ -1882,7 +1882,7 @@
     "phone": 97121061,
     "address": "261 Coventry Road, Barronett, Palau, 3823",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62055fd0bba1352b25",
@@ -1895,7 +1895,7 @@
     "phone": 99915367,
     "address": "486 Jerome Street, Websterville, New Jersey, 4658",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62c167ab102f18149c",
@@ -1908,7 +1908,7 @@
     "phone": 94740202,
     "address": "226 Kay Court, Marienthal, South Carolina, 1388",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c6270e73d07812cfc4f",
@@ -1921,7 +1921,7 @@
     "phone": 93956881,
     "address": "828 Poly Place, Emory, Hawaii, 8303",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62554cef38069c754d",
@@ -1934,7 +1934,7 @@
     "phone": 98822909,
     "address": "869 Decatur Street, Manila, Indiana, 2222",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62f7500bf6cb6343c9",
@@ -1947,7 +1947,7 @@
     "phone": 94206301,
     "address": "770 Sapphire Street, Shelby, Virgin Islands, 1839",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62c4495249041fa4cb",
@@ -1960,7 +1960,7 @@
     "phone": 93011110,
     "address": "254 Meeker Avenue, Johnsonburg, Washington, 3509",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c627a24d9f866a450c1",
@@ -1973,7 +1973,7 @@
     "phone": 93151157,
     "address": "821 Woodrow Court, Gibsonia, Minnesota, 8735",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62865a4dda5c9e9677",
@@ -1986,7 +1986,7 @@
     "phone": 99643141,
     "address": "512 Fleet Street, Malo, New Hampshire, 6037",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6220c1b32861dd2652",
@@ -1999,7 +1999,7 @@
     "phone": 96077077,
     "address": "691 Ford Street, Elbert, Missouri, 2250",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6211c3c656c58fdb43",
@@ -2012,7 +2012,7 @@
     "phone": 99640172,
     "address": "484 Folsom Place, Tyro, Rhode Island, 7614",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62b391296787d36e9e",
@@ -2025,7 +2025,7 @@
     "phone": 91971920,
     "address": "876 Brightwater Court, Lookingglass, Arkansas, 6888",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c6289a01791e9e2fded",
@@ -2038,7 +2038,7 @@
     "phone": 9641692,
     "address": "569 Huntington Street, Stevens, Massachusetts, 7411",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62d870e3f158576c11",
@@ -2051,7 +2051,7 @@
     "phone": 96520594,
     "address": "607 Frank Court, Hondah, Puerto Rico, 874",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6214c96450d4ad6581",
@@ -2064,7 +2064,7 @@
     "phone": 98593786,
     "address": "950 Pierrepont Place, Tolu, Texas, 9482",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c623a3a03b9778af77a",
@@ -2077,7 +2077,7 @@
     "phone": 94182523,
     "address": "235 Central Avenue, Chicopee, Iowa, 3583",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62a20ec617478ab222",
@@ -2090,7 +2090,7 @@
     "phone": 98305692,
     "address": "670 Columbus Place, Wedgewood, Kansas, 9487",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c626c66b28e41fc88c4",
@@ -2103,7 +2103,7 @@
     "phone": 91871702,
     "address": "533 Friel Place, Smock, South Dakota, 6631",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62d722baa6e4269237",
@@ -2116,7 +2116,7 @@
     "phone": 91012835,
     "address": "970 Rugby Road, Roeville, Vermont, 4869",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c621d364867120ac776",
@@ -2129,7 +2129,7 @@
     "phone": 98637585,
     "address": "432 Cozine Avenue, Waiohinu, Wyoming, 2495",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c626d17aac64c317a5e",
@@ -2142,7 +2142,7 @@
     "phone": 93329102,
     "address": "518 Sands Street, Holcombe, Montana, 2824",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62df24c9ad0dc372ea",
@@ -2155,7 +2155,7 @@
     "phone": 92030046,
     "address": "264 Brighton Avenue, Tivoli, Alaska, 6106",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6289fb9ae19f990acf",
@@ -2168,7 +2168,7 @@
     "phone": 9528287,
     "address": "275 Stryker Street, Gardiner, Georgia, 1390",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62f6b062002bd0ff8a",
@@ -2181,7 +2181,7 @@
     "phone": 91744708,
     "address": "758 Crystal Street, Vienna, Ohio, 2070",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62a3d5ead43e403c0f",
@@ -2194,7 +2194,7 @@
     "phone": 93817716,
     "address": "425 Perry Terrace, Chestnut, Kentucky, 5971",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6238159686fbbaf875",
@@ -2207,7 +2207,7 @@
     "phone": 94329782,
     "address": "140 Jefferson Street, Franklin, Tennessee, 9176",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62d76afe24222f742c",
@@ -2220,7 +2220,7 @@
     "phone": 92778845,
     "address": "517 Debevoise Street, Morningside, Maryland, 2300",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c6272d11e3962c14112",
@@ -2233,7 +2233,7 @@
     "phone": 98270000,
     "address": "394 Elm Avenue, Valle, West Virginia, 8720",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c622fb300befafe5583",
@@ -2246,7 +2246,7 @@
     "phone": 92941067,
     "address": "459 Myrtle Avenue, Retsof, Maine, 1539",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62ffe10c869ea253a9",
@@ -2259,7 +2259,7 @@
     "phone": 94016762,
     "address": "171 Caton Avenue, Cliff, Nevada, 4402",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c624a7b1da565cc3957",
@@ -2272,7 +2272,7 @@
     "phone": 98897624,
     "address": "509 Turnbull Avenue, Kenvil, North Dakota, 2943",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62230ff41acf3371d7",
@@ -2285,7 +2285,7 @@
     "phone": 91090722,
     "address": "236 Degraw Street, Grimsley, Federated States Of Micronesia, 3304",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c626c3adaa0599d7d4a",
@@ -2298,7 +2298,7 @@
     "phone": 91351758,
     "address": "464 Clymer Street, Hamilton, Alabama, 5034",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c628ef9f998a1c5f8c9",
@@ -2311,7 +2311,7 @@
     "phone": 99380201,
     "address": "491 Gain Court, Lupton, Delaware, 692",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c625db3e58a7bf9f26e",
@@ -2324,7 +2324,7 @@
     "phone": 94774528,
     "address": "628 Pleasant Place, Frizzleburg, Florida, 4676",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c6248e9e33684479ed9",
@@ -2337,7 +2337,7 @@
     "phone": 9758427,
     "address": "593 Exeter Street, Trona, American Samoa, 4698",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62545e1c4d1997535c",
@@ -2350,7 +2350,7 @@
     "phone": 94932682,
     "address": "780 Elm Place, Rushford, Arizona, 4118",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c626b0601de8c654705",
@@ -2363,7 +2363,7 @@
     "phone": 92569604,
     "address": "441 Clinton Street, Tioga, Colorado, 8635",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62bef0f7eb10e7d475",
@@ -2376,7 +2376,7 @@
     "phone": 94310304,
     "address": "252 Garland Court, Delshire, Pennsylvania, 3674",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c6242be9db1c5bd0235",
@@ -2389,7 +2389,7 @@
     "phone": 91371959,
     "address": "942 Putnam Avenue, Dawn, Utah, 713",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c6218973ed0b5b9c7ac",
@@ -2402,7 +2402,7 @@
     "phone": 96695726,
     "address": "729 Wakeman Place, Riverton, Marshall Islands, 9201",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62dadc8e66adf1616a",
@@ -2415,7 +2415,7 @@
     "phone": 98189119,
     "address": "674 Terrace Place, Lumberton, Louisiana, 3878",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62eddf5e41c98989f7",
@@ -2428,7 +2428,7 @@
     "phone": 91371677,
     "address": "912 Wilson Street, Bluffview, Oregon, 296",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62e7f30a98bd61e702",
@@ -2441,7 +2441,7 @@
     "phone": 91395208,
     "address": "935 Nolans Lane, Cresaptown, Michigan, 2181",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62f208b6bc22fe7a1a",
@@ -2454,7 +2454,7 @@
     "phone": 9205621,
     "address": "268 Aurelia Court, Foscoe, New York, 3355",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c62b55cc25a6955ca11",
@@ -2467,7 +2467,7 @@
     "phone": 91200599,
     "address": "521 Pilling Street, Germanton, North Carolina, 3868",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c620b3875dfedb6fb0c",
@@ -2480,7 +2480,7 @@
     "phone": 9724646,
     "address": "397 Troy Avenue, Hachita, District Of Columbia, 909",
     "skillset": "C",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c625f174e77c521678e",
@@ -2493,7 +2493,7 @@
     "phone": 93077373,
     "address": "918 Crown Street, Choctaw, Northern Mariana Islands, 8042",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62c5c479020dbd4d26",
@@ -2506,7 +2506,7 @@
     "phone": 97363082,
     "address": "328 Prospect Street, Esmont, Wisconsin, 5503",
     "skillset": "A",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c6214b38d47c59d46e5",
@@ -2519,7 +2519,7 @@
     "phone": 96980150,
     "address": "857 Alice Court, Chemung, New Mexico, 4107",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62ac4438dd9b5203ca",
@@ -2532,7 +2532,7 @@
     "phone": 96189416,
     "address": "180 Canal Avenue, Dola, Illinois, 1306",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62a40bdb594d982ce2",
@@ -2545,7 +2545,7 @@
     "phone": 93246417,
     "address": "297 Court Street, Nash, Idaho, 9610",
     "skillset": "A",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c626f1e438e3e1faf8f",
@@ -2558,7 +2558,7 @@
     "phone": 92133097,
     "address": "990 Clinton Avenue, Inkerman, Oklahoma, 5737",
     "skillset": "B",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c626f478f5eec30ee04",
@@ -2571,7 +2571,7 @@
     "phone": 97192494,
     "address": "820 Bay Parkway, Levant, Connecticut, 3335",
     "skillset": "C",
-    "available": "No"
+    "available": false
   },
   {
     "_id": "61619c623afbddaa975ba384",
@@ -2584,7 +2584,7 @@
     "phone": 96382592,
     "address": "284 Chester Avenue, Graball, Nebraska, 9076",
     "skillset": "B",
-    "available": "Yes"
+    "available": true
   },
   {
     "_id": "61619c62f31467bcc7475419",
@@ -2597,6 +2597,6 @@
     "phone": 97057196,
     "address": "246 Bills Place, Roy, California, 8493",
     "skillset": "A",
-    "available": "No"
+    "available": false
   }
 ]
