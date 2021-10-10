@@ -78,7 +78,7 @@ const Dept = (props) => {
         aria-describedby="alert-dialog-description"
       >
         <DialogTitle id="alert-dialog-title">
-          {"Suitable Employees"}
+          {"Suitable Employees to Transfer"} 
         </DialogTitle>
         <DialogContent>
           <EmployeeTableData ssRequired={ssRequired}/>
