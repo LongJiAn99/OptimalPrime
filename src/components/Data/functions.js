@@ -45,8 +45,9 @@ export default TaskDataDisplay;
   
 
 
-const EmployeeTableData = () => {
-    
+const EmployeeTableData = (props) => {
+  const {forDashboard} = props
+
   const tableHeaderColor = 'warning'
   const classes = useStyles();
     return(
@@ -68,24 +69,24 @@ const EmployeeTableData = () => {
                 </TableRow>
             </TableHead>
             <TableBody >
-            {forDashboard ?
-            (<> {test.filter(el => el.available === "Yes").slice(0,20).map( el => (
+            {forDashboard ? //Dashboard view
+            (<>{test.filter(el => el.available === "Yes").slice(0,20).map( el => (
             <TableRow key={el.name} className={classes.tableBodyRow}>
                 <td>{el.name}</td>
                 <td>{el.currentDepartment}</td>
                 <td>{el.skillset}</td>
                 <td>{el.available}</td>
             </TableRow>
-            ))}</>) :
-            (<> {test.map( el => (
-              <TableRow key={el.name} className={classes.tableBodyRow}>
-                  <td>{el.name}</td>
-                  <td>{el.currentDepartment}</td>
-                  <td>{el.skillset}</td>
-                  <td>{el.available}</td>
-              </TableRow>
-              ))}</>
-            )
+            ))}</>) : ( //Employee list sidebar view
+              <>{test.map( el => (
+            <TableRow key={el.name} className={classes.tableBodyRow}>
+                <td>{el.name}</td>
+                <td>{el.currentDepartment}</td>
+                <td>{el.skillset}</td>
+                <td>{el.available}</td>
+            </TableRow>
+            ))}</>)
+            }
             </TableBody>
         </Table>
         </div>
