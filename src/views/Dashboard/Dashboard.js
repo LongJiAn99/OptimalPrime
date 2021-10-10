@@ -122,7 +122,7 @@ export default function Dashboard() {
         <GridItem xs={12} sm={6} md={4}>
           <Card>
             <CardHeader color="info" stats icon>
-              <CardIcon color="success">
+              <CardIcon color="danger">
               <Icon>F</Icon>
               </CardIcon>
               <p className={classes.cardCategory}>Department F</p>

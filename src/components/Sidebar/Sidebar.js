@@ -1,4 +1,3 @@
-/*eslint-disable*/
 import React from "react";
 import classNames from "classnames";
 import PropTypes from "prop-types";
@@ -24,7 +23,7 @@ export default function Sidebar(props) {
   function activeRoute(routeName) {
     return location.pathname === routeName;
   }
-  const { color, logo, image, logoText, routes } = props;
+  const { color, logo, image, routes } = props;
   var links = (
     <List className={classes.list}>
       {routes.map((prop, key) => {
@@ -73,9 +72,7 @@ export default function Sidebar(props) {
   var brand = (
     <div className={classes.logo}>
       <a 
-        href="https://www.creative-tim.com?ref=mdr-sidebar"
         className={classNames(classes.logoLink)}
-        target="_blank"
       >
         <div className={classes.logoImage}>
           <img src={logo} alt="logo" className={classes.img} />
@@ -143,4 +140,5 @@ Sidebar.propTypes = {
   logoText: PropTypes.string,
   routes: PropTypes.arrayOf(PropTypes.object),
   open: PropTypes.bool,
+  color: PropTypes.string,
 };
