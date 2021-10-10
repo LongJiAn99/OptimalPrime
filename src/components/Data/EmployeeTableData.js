@@ -45,8 +45,8 @@ export default TaskDataDisplay;
   
 
 
-const EmployeeTableData = () => {
-    
+const EmployeeTableData = (props) => {
+  const {ssRequired} = props
   const tableHeaderColor = 'warning'
   const classes = useStyles();
     return(
@@ -68,30 +68,19 @@ const EmployeeTableData = () => {
                 </TableRow>
             </TableHead>
             <TableBody >
-            {forDashboard ?
-            (<> {test.filter(el => el.available === "Yes").slice(0,20).map( el => (
-            <TableRow key={el.name} className={classes.tableBodyRow}>
+            {test.filter(el => el.available === "Yes" && el.skillset === ssRequired).map( el => (
+            <TableRow key={el.name} className={classes.tableBodyRow} hover = {true} onClick = {() => alert("Successfully transferred")} >
                 <td>{el.name}</td>
                 <td>{el.currentDepartment}</td>
                 <td>{el.skillset}</td>
                 <td>{el.available}</td>
             </TableRow>
-            ))}</>) :
-            (<> {test.map( el => (
-              <TableRow key={el.name} className={classes.tableBodyRow}>
-                  <td>{el.name}</td>
-                  <td>{el.currentDepartment}</td>
-                  <td>{el.skillset}</td>
-                  <td>{el.available}</td>
-              </TableRow>
-              ))}</>
-            )
+            ))}
             </TableBody>
         </Table>
         </div>
     )
  }
- 
 
 
 export default EmployeeTableData;
@@ -116,6 +105,9 @@ EmployeeTableData.propTypes = {
     ]),
     tableHead: PropTypes.arrayOf(PropTypes.string),
     tableData: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.string)),
+    forDashboard: PropTypes.boolean,
+    forEmployeelist: PropTypes.boolean,
+    ssRequired: PropTypes.string,
   };
 
 

@@ -1,3 +1,122 @@
+//import TaskData from "components/Data/Tasks.json";
+import { makeStyles } from "@material-ui/core/styles";
+import React from "react";
+import PropTypes from "prop-types";
+import Table from "@material-ui/core/Table";
+import TableHead from "@material-ui/core/TableHead";
+import TableRow from "@material-ui/core/TableRow";
+import TableBody from "@material-ui/core/TableBody";
+
+import {
+  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogTitle,
+  //DialogContentText,
+} from "@material-ui/core";
+import EmployeeTableData from "components/Data/EmployeeTableData.js";
+
+//import TableCell from "@material-ui/core/TableCell";
+
+import styles from "assets/jss/material-dashboard-react/components/tableStyle.js";
+
+const useStyles = makeStyles(styles);
+
+const Dept = (props) => {
+
+   
+  const [open, setOpen] = React.useState(false);
+  const [ssRequired, setssRequired] = React.useState("");
+  
+
+  const handleOpen = (skillset) => {
+    setssRequired(skillset);
+    setOpen(true);
+  }
+
+  const handleClose = () => {
+    setOpen(false); 
+  }
+
+  React.useEffect(() => {
+    setssRequired(ssRequired);
+    console.log("hi");
+  }, [ssRequired]);
+  
+
+  const tableHeaderColor =  'primary'
+  const classes = useStyles();
+    return (
+      <div className = {classes.tableResponsive}>
+        <Table className ={classes.table}>
+          <TableHead className={classes[tableHeaderColor + "TableHeader"]}>
+            <TableRow className={classes.tableHeaderRow}>
+              <th>Resources</th>
+              <th>Criticality</th>
+              <th>Equipment</th>
+              <th>Due Date</th>
+              <th>Skill Sets Required</th>
+              </TableRow>
+            </TableHead>
+            <TableBody >
+      
+      {test.filter(t => t.department === props.deptString).map(t => (
+      <TableRow key={t.department} className={classes.tableBodyRow} hover = {true} onClick={()=> {handleOpen(t.skillsetRequired)}}>
+                <td>{t.resources}</td>
+                <td>{t.criticality}</td>
+                <td>{t.equipment}</td>
+                <td>{t.dueDate.substring(0,10) + " " + t.dueDate.substring(11,16)}</td>
+                <td>{t.skillsetRequired}</td>   
+          </TableRow>
+          ))}         
+            </TableBody>
+        </Table>
+        <Dialog
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="alert-dialog-title"
+        aria-describedby="alert-dialog-description"
+      >
+        <DialogTitle id="alert-dialog-title">
+          {"Suitable Employees"}
+        </DialogTitle>
+        <DialogContent>
+          <EmployeeTableData ssRequired={ssRequired}/>
+        </DialogContent>
+        <DialogActions>
+          </DialogActions>
+          </Dialog>
+        </div>      
+    )  
+    }
+
+
+
+export default Dept;
+
+Dept.defaultProps = {
+  tableHeaderColor: "gray",
+};
+
+Dept.propTypes = {
+  deptString: PropTypes.string,
+  tableHeaderColor: PropTypes.oneOf([
+    "warning",
+    "primary",
+    "danger",
+    "success",
+    "info",
+    "rose",
+    "gray",
+  ]),
+  tableHead: PropTypes.arrayOf(PropTypes.string),
+  tableData: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.string)),
+  forDashboard: PropTypes.boolean
+};
+
+
+
+const test = 
 [
   {
     "_id": "6162b97acf87ad08aa8a3965",

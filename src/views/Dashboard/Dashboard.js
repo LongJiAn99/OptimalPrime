@@ -17,13 +17,11 @@ import CardHeader from "components/Card/CardHeader.js";
 import CardIcon from "components/Card/CardIcon.js";
 import CardBody from "components/Card/CardBody.js";
 import CardFooter from "components/Card/CardFooter.js";
-import Dept from "variables/general.js";
-
-// import { bugs, website, server } from "variables/general.js";
+import Dept from "variables/Dept.js";
 
 import styles from "assets/jss/material-dashboard-react/views/dashboardStyle.js";
 
-import EmployeeTableData from "components/Data/functions.js";
+import EmployeeListData from "components/Data/EmployeeListData";
 
 const useStyles = makeStyles(styles);
 
@@ -189,12 +187,9 @@ export default function Dashboard() {
           <Card>
             <CardHeader color="warning">
               <h4 className={classes.cardTitleWhite}>Employees Stats</h4>
-              <p className={classes.cardCategoryWhite}>
-                New employees on 15th September, 2016
-              </p>
             </CardHeader>
             <CardBody>
-            <EmployeeTableData />
+            <EmployeeListData filtered = {true} />
 {/*               <Table
                 tableHeaderColor="warning"
                 tableHead={["ID", "Name", "Department", "Skill Set", "Available"]}
